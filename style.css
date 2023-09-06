@@ -8,7 +8,7 @@ body{
   background: #962f07;
   color: white;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0%;
   left: 0%;
   height:70px;
@@ -16,7 +16,7 @@ body{
 
 nav {
   z-index: 998;
-  }
+}
   
 nav * {
   color: white;
@@ -140,7 +140,7 @@ nav input{
   top: 5%;
   background-image: url("Images/nature.jpg");
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-size: cover;
   background-position-y: bottom;
   filter: brightness(80%);
